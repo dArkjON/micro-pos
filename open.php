@@ -1,6 +1,6 @@
 <!--
 Project: micro-pos Bitcore BTX php script
-Author: Jon Durdel <info@darkjon.de>
+Author: Jon D. <info@darkjon.de>
 Github page: https://github.com/dArkjON/micro-pos/
 This script is released under the GNU General Public License v3.0 See the LICENSE file for more information
 -->

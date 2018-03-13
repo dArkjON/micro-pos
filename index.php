@@ -1,5 +1,8 @@
 ﻿<html>
+<head>
 <link rel="stylesheet" href="js/micropos.css">
+</head>
+<body>
 <?php
 //Project: micro-pos Bitcore BTX php script
 //Author: Jon D. <info@darkjon.de>
@@ -132,4 +135,5 @@ $('#open').load('open.php?wallet=<?php echo $addrStr;?>&coin=<?php echo $target;
 },15000);
 </script>
 <script src="js/jquery.min.js"></script>
+</body>
 </html>

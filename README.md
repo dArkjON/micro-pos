@@ -31,7 +31,10 @@ Invoice creation also payment is logged in "log.txt"
 # files
 + index.php
 + open.php
++ wallet.php
 + log.txt
++ js/jquery.min
++ js/micropos.css
 
 # donations
 if you like my script or like to see me drunken, send me beer :D

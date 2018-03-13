@@ -19,6 +19,12 @@ chmod +666 *
 
 Open your Server in a Webbrowser like http://< yourserver >.com/micro-pos
 
+# procedure
+The script will check the wallets from 1-5 if there is a incoming TXID to check if the wallet is 'free'.
+
+After the customer paid the invoice the wallet address is blocked till 1 confirm.
+
+Invoice creation also payment is logged in "log.txt"
 
 # files
 + index.php

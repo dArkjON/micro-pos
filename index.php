@@ -1,4 +1,5 @@
 ﻿<?php
+echo '<h5>This is a Demo for the micro-pos script <a href="https://github.com/dArkjON/micro-pos">https://github.com/dArkjON/micro-pos</a></h5>';
 $shorty = 'Bitcore';
 
 $wallet = '11472JagyCb2sXEqHNBdm3KD22S27P7FC4';

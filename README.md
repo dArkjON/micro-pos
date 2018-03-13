@@ -5,6 +5,7 @@ This is a micro BitCore BTX POS script just need jquery and php to run.
 # easy install
 Just copy the files into a folder on your php server for normal 'var/www/html/micro-pos'.
 ```
+cd /var/www/html/
 git clone https://github.com/dArkjON/micro-pos.git
 ```
 
@@ -12,6 +13,7 @@ git clone https://github.com/dArkjON/micro-pos.git
 Edit the index.php : change your wallets in line 4, 5, 6, 7 & 8.
 Change chmod from logs.txt from 644 to 666.
 ```
+cd micro-pos
 nano index.php
 chmod +666 *
 ```

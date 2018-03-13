@@ -128,4 +128,4 @@ setInterval(function(){
 $('#open').load('open.php?wallet=<?php echo $addrStr;?>&coin=<?php echo $target;?>');
 },15000);
 </script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>

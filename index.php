@@ -5,6 +5,7 @@ Author: Jon D. <info@darkjon.de>
 Github page: https://github.com/dArkjON/micro-pos/
 This script is released under the GNU General Public License v3.0 See the LICENSE file for more information
 -->
+<link rel="stylesheet" href="js/micropos.css">
 <?php
 echo '<h5>This is a Demo for the micro-pos script <a href="https://github.com/dArkjON/micro-pos">https://github.com/dArkjON/micro-pos</a></h5>';
 $coin = 'Bitcore';

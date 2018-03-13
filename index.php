@@ -21,17 +21,11 @@ $pbtc = $data[0]->price_btc;
 $psymbole = $data[0]->symbol;
 
 echo 'Coin : '.$shorty.'<br>';
-echo 'USD : $'.$pusd.' // ';
-echo 'EUR : '.$peuro.'€<br>';
+echo 'USD : $'.$pusd.' // EUR : '.$peuro.'<br>';
 //echo 'BTC : '.$pbtc.'<br>';
 
-//echo 'Wallet 1:'.$wallet.'<br>';
-//echo 'Wallet 2:'.$wallet1.'<br>';
-//echo 'Wallet 3:'.$wallet2.'<br>';
-//echo 'Wallet 4:'.$wallet3.'<br>';
-//echo 'Wallet 5:'.$wallet4.'<br>';
-//echo '<br><br>';
-
+//echo 'Wallet 1:'.$wallet.'<br>'.'Wallet 2:'.$wallet1.'<br>'.'Wallet 3:'.$wallet2.'<br>'.'Wallet 4:'.$wallet3.'<br>'.'Wallet 5:'.$wallet4.'<br>';
+echo '<br>';
 if ($_POST['amount'] == ''){
 	
 if ($msg1 == "123"){
@@ -120,11 +114,7 @@ echo '<div id="open">Payment Wallet : '.$wallet.'<br><br>... loading Details ...
 	}else{
 	echo 'Sorry, all Wallets in use. Please try again after a new Block.';
 	echo '<a href="/confirm">Restart</a>';
-	}
-	}
-	}
-	}
-}
+	}	}	}	}	}
 
 $myfile = fopen("logs.txt", "a") or die("Unable to open file!");
 $txt = "Create Invoice : ".$addrStr." ".$target." ".$price." \n";
@@ -134,8 +124,8 @@ fclose($myfile);
 ?>
 
 <script type="text/javascript">
-	setInterval(function(){
-	$('#open').load('open.php?wallet=<?php echo $addrStr;?>&coin=<?php echo $target;?>');
-	},15000);
-	</script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+setInterval(function(){
+$('#open').load('open.php?wallet=<?php echo $addrStr;?>&coin=<?php echo $target;?>');
+},15000);
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

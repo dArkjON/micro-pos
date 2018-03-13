@@ -32,7 +32,7 @@ if ($_POST['amount'] == ''){
 if ($msg1 == "123"){
 echo '<br><br><br>';
 echo '<b>Payment : '.$msg3.' '.$psymbole.' to wallet : '.$msg2.' completed.</b>';	
-echo '<meta http-equiv="refresh" content="3; URL=/confirm/">';
+echo '<meta http-equiv="refresh" content="3; URL=/micro-pos">';
 }else{
 	
 echo '<form action="" method="post">';

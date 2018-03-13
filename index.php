@@ -113,8 +113,8 @@ echo '<div id="open">Payment Wallet : '.$wallet.'<br><br>... loading Details ...
 	echo '<a href="bitcore:'.$wallet4.'?amount='.$target.'"><img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=bitcore:'.$wallet4.'?amount='.$target.'" title="'.$wallet4.'" /></a>';	
 	echo '<div id="open">Payment Wallet : '.$wallet4.'<br><br>... loading Details ...</div>';
 	}else{
-	echo 'Sorry, all Wallets in use. Please try again after a new Block.';
-	echo '<a href="/confirm">Restart</a>';
+	echo 'Sorry, all Wallets in use. Please try again after a new Block.<br>';
+	echo '<a href="/micro-pos">Restart process</a>';
 	}	}	}	}	}
 
 $myfile = fopen("logs.txt", "a") or die("Unable to open file!");

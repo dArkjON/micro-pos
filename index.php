@@ -1,6 +1,13 @@
-﻿<?php
+﻿<!--
+Project: micro-pos Bitcore BTX php script
+Author: Jon Durdel <info@darkjon.de>
+Github page: https://github.com/dArkjON/micro-pos/
+This script is released under the GNU General Public License v3.0 See the LICENSE file for more information
+-->
+
+<?php
 echo '<h5>This is a Demo for the micro-pos script <a href="https://github.com/dArkjON/micro-pos">https://github.com/dArkjON/micro-pos</a></h5>';
-$shorty = 'Bitcore';
+$coin = 'Bitcore';
 
 $wallet = '11472JagyCb2sXEqHNBdm3KD22S27P7FC4';
 $wallet1 = '13R4ZRMFfTysscP2K1krZaNZNJgF9jTiCJ';
@@ -13,7 +20,7 @@ $msg1 = $_GET['msg'];
 $msg2 = $_GET['wallet'];
 $msg3 = $_GET['amount'];
 
-$json = file_get_contents('https://api.coinmarketcap.com/v1/ticker/'.$shorty.'/?convert=EUR'); 
+$json = file_get_contents('https://api.coinmarketcap.com/v1/ticker/'.$coin.'/?convert=EUR'); 
 $data = json_decode($json);
 
 $pusd = number_format($data[0]->price_usd, 2);
@@ -21,7 +28,7 @@ $peuro = number_format($data[0]->price_eur, 2);
 $pbtc = $data[0]->price_btc;
 $psymbole = $data[0]->symbol;
 
-echo 'Coin : '.$shorty.'<br>';
+echo 'Coin : '.$coin.'<br>';
 echo 'USD : $'.$pusd.' // EUR : '.$peuro.'<br>';
 //echo 'BTC : '.$pbtc.'<br>';
 

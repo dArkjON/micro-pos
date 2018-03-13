@@ -1,10 +1,10 @@
-﻿<!--
+﻿<html>
+<!--
 Project: micro-pos Bitcore BTX php script
 Author: Jon D. <info@darkjon.de>
 Github page: https://github.com/dArkjON/micro-pos/
 This script is released under the GNU General Public License v3.0 See the LICENSE file for more information
 -->
-
 <?php
 echo '<h5>This is a Demo for the micro-pos script <a href="https://github.com/dArkjON/micro-pos">https://github.com/dArkjON/micro-pos</a></h5>';
 $coin = 'Bitcore';
@@ -133,3 +133,4 @@ $('#open').load('open.php?wallet=<?php echo $addrStr;?>&coin=<?php echo $target;
 },15000);
 </script>
 <script src="js/jquery.min.js"></script>
+</html>

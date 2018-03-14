@@ -28,6 +28,8 @@ After the customer paid the invoice the wallet address is blocked till 1 confirm
 
 Invoice creation also payment is logged in "log.txt"
 
+https://i.imgur.com/bY7fyQ2.jpg
+
 # files
 + index.php
 + open.php

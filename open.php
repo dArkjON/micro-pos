@@ -9,7 +9,7 @@ This script is released under the GNU General Public License v3.0 See the LICENS
 $paywallet = $_GET['wallet'];
 $total = $_GET['coin'];
 
-$json2 = file_get_contents('http://insight.bitcore.cc/api/addr/'.$paywallet); 
+$json2 = file_get_contents('https://insight.bitcore.cc/api/addr/'.$paywallet); 
 $data2 = json_decode($json2);
 
 $addrStr = $data2->addrStr;
